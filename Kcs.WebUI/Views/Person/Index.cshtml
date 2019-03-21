@@ -1,0 +1,12 @@
+﻿@model Kcs.Entity.Concrete.Person
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Ana Sayfa</h1>
+
+<div class="form-group">
+    <a asp-controller="Person" asp-action="UpdatePerson">Bilgileri Güncelle</a>
+    <a asp-controller="Login" asp-action="LogOut">Çıkış Yap</a>
+</div>

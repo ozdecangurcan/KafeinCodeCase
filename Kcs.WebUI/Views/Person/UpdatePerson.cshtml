@@ -1,0 +1,56 @@
+﻿@model Kcs.Entity.Concrete.Person
+
+@{
+    ViewData["Title"] = "UpdatePerson";
+}
+
+<h1>Güncelle</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <a asp-controller="Login" asp-action="LogOut">Çıkış Yap</a>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="PersonId" id="personId" />
+        <div class="form-group">
+            <label asp-for="PersonName" class="control-label"></label>
+            <input asp-for="PersonName" class="form-control" id="personName" />
+            <span asp-validation-for="PersonName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PersonSurname" class="control-label"></label>
+            <input asp-for="PersonSurname" class="form-control" id="personSurname" />
+            <span asp-validation-for="PersonSurname" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PersonEmail" class="control-label"></label>
+            <input asp-for="PersonEmail" class="form-control" id="personMail" />
+            <span asp-validation-for="PersonEmail" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PersonPhone" class="control-label"></label>
+            <input asp-for="PersonPhone" class="form-control" id="personPhone" />
+            <span asp-validation-for="PersonPhone" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PersonBirthday" class="control-label"></label>
+            <input asp-for="PersonBirthday" class="form-control" id="personBirthday" type="text" />
+            <span asp-validation-for="PersonBirthday" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ProvinceId" class="control-label"></label>
+            <select asp-for="ProvinceId" asp-items="ViewBag.ProvienceList" class="form-control" id="provienceDdl"></select>
+            <span asp-validation-for="ProvinceId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="DistrictId" class="control-label"></label>
+            <select asp-for="DistrictId" asp-items="ViewBag.DistrictList" class="form-control" id="districtDdl"></select>
+            <span asp-validation-for="DistrictId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Güncelle" class="btn btn-primary" id="btnUpdate" />
+        </div>
+    </div>
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/UpdatePerson.js"></script>
+
