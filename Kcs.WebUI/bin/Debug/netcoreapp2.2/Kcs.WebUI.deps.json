@@ -479,6 +479,9 @@
         }
       },
       "Kcs.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.3"
+        },
         "runtime": {
           "Kcs.Core.dll": {}
         },

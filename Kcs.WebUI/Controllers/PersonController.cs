@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
+using System.Text;
 using System.Threading.Tasks;
 using Kcs.Business.Abstract;
 using Kcs.Entity.Concrete;
@@ -73,7 +74,20 @@ namespace Kcs.WebUI.Controllers
                     _personService.Update(person);
                     return Json(new AlertViewModel { Message = "Başarılı", ProcessStatus = true });
                 }
-                return Json(new AlertViewModel { Message = "Bilgiler Hatalı", ProcessStatus = false });
+                else
+                {
+                    var errorMessageList = ModelState.Select(x => x.Value.Errors).Where(y => y.Count > 0).Select(x => x.FirstOrDefault().ErrorMessage).ToList();
+                    string message = "";
+                    StringBuilder sb = new StringBuilder();
+                    foreach (var item in errorMessageList)
+                    {
+                        sb.AppendLine(item);
+                    }
+
+                    message = sb.ToString();
+
+                    return Json(new AlertViewModel { Message = message, ProcessStatus = false });
+                }
             }
             catch (Exception ex)
             {
@@ -112,7 +126,20 @@ namespace Kcs.WebUI.Controllers
                     _personService.Add(person);
                     return Json(new AlertViewModel { Message = "Başarılı", ProcessStatus = true });
                 }
-                return Json(new AlertViewModel { Message = "Bilgiler Hatalı", ProcessStatus = false });
+                else
+                {
+                    var errorMessageList = ModelState.Select(x => x.Value.Errors).Where(y => y.Count > 0).Select(x => x.FirstOrDefault().ErrorMessage).ToList();
+                    string message = "";
+                    StringBuilder sb = new StringBuilder();
+                    foreach (var item in errorMessageList)
+                    {
+                        sb.AppendLine(item);
+                    }
+
+                    message = sb.ToString();
+
+                    return Json(new AlertViewModel { Message = message, ProcessStatus = false });
+                }
             }
             catch (Exception ex)
             {

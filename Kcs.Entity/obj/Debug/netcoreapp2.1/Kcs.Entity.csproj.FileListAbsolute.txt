@@ -16,3 +16,12 @@ C:\Users\Ozdecan\Desktop\KafeinCodeCase\Kcs.Entity\obj\Debug\netcoreapp2.1\Kcs.E
 C:\Users\Ozdecan\Desktop\KafeinCodeCase\Kcs.Entity\obj\Debug\netcoreapp2.1\Kcs.Entity.dll
 C:\Users\Ozdecan\Desktop\KafeinCodeCase\Kcs.Entity\obj\Debug\netcoreapp2.1\Kcs.Entity.pdb
 C:\Users\Arneca\Desktop\KafeinCodeCase\Kcs.Entity\obj\Debug\netcoreapp2.1\Kcs.Entity.csprojAssemblyReference.cache
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Entity\bin\Debug\netcoreapp2.1\Kcs.Entity.deps.json
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Entity\bin\Debug\netcoreapp2.1\Kcs.Entity.dll
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Entity\bin\Debug\netcoreapp2.1\Kcs.Entity.pdb
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Entity\obj\Debug\netcoreapp2.1\Kcs.Entity.csprojAssemblyReference.cache
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Entity\obj\Debug\netcoreapp2.1\Kcs.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Entity\obj\Debug\netcoreapp2.1\Kcs.Entity.AssemblyInfoInputs.cache
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Entity\obj\Debug\netcoreapp2.1\Kcs.Entity.AssemblyInfo.cs
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Entity\obj\Debug\netcoreapp2.1\Kcs.Entity.dll
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Entity\obj\Debug\netcoreapp2.1\Kcs.Entity.pdb

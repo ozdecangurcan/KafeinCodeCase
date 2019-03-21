@@ -22,3 +22,12 @@ C:\Users\Ozdecan\Desktop\KafeinCodeCase\Kcs.Core\obj\Debug\netcoreapp2.1\Kcs.Cor
 C:\Users\Ozdecan\Desktop\KafeinCodeCase\Kcs.Core\obj\Debug\netcoreapp2.1\Kcs.Core.csproj.CopyComplete
 C:\Users\Ozdecan\Desktop\KafeinCodeCase\Kcs.Core\obj\Debug\netcoreapp2.1\Kcs.Core.dll
 C:\Users\Ozdecan\Desktop\KafeinCodeCase\Kcs.Core\obj\Debug\netcoreapp2.1\Kcs.Core.pdb
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Core\obj\Debug\netcoreapp2.1\Kcs.Core.csprojAssemblyReference.cache
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Core\obj\Debug\netcoreapp2.1\Kcs.Core.csproj.CoreCompileInputs.cache
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Core\obj\Debug\netcoreapp2.1\Kcs.Core.AssemblyInfoInputs.cache
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Core\obj\Debug\netcoreapp2.1\Kcs.Core.AssemblyInfo.cs
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Core\obj\Debug\netcoreapp2.1\Kcs.Core.dll
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Core\obj\Debug\netcoreapp2.1\Kcs.Core.pdb
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Core\bin\Debug\netcoreapp2.1\Kcs.Core.deps.json
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Core\bin\Debug\netcoreapp2.1\Kcs.Core.dll
+C:\Users\Ozdecan\Source\Repos\KafeinCodeCase\Kcs.Core\bin\Debug\netcoreapp2.1\Kcs.Core.pdb

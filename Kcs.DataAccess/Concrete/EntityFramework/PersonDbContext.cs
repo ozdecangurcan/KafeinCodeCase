@@ -10,7 +10,7 @@ namespace Kcs.DataAccess.Concrete.EntityFramework
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=localhost\MSSQLSERVER14;Database=PersonDb;Trusted_Connection=True;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Server=localhost;Database=PersonDb;Trusted_Connection=True;Integrated Security=True");
         }
 
         public DbSet<Person> Persons { get; set; }

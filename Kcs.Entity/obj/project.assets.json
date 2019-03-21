@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ozdecan\\Desktop\\KafeinCodeCase\\Kcs.Entity\\Kcs.Entity.csproj",
+      "projectUniqueName": "C:\\Users\\Ozdecan\\Source\\Repos\\KafeinCodeCase\\Kcs.Entity\\Kcs.Entity.csproj",
       "projectName": "Kcs.Entity",
-      "projectPath": "C:\\Users\\Ozdecan\\Desktop\\KafeinCodeCase\\Kcs.Entity\\Kcs.Entity.csproj",
+      "projectPath": "C:\\Users\\Ozdecan\\Source\\Repos\\KafeinCodeCase\\Kcs.Entity\\Kcs.Entity.csproj",
       "packagesPath": "C:\\Users\\Ozdecan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ozdecan\\Desktop\\KafeinCodeCase\\Kcs.Entity\\obj\\",
+      "outputPath": "C:\\Users\\Ozdecan\\Source\\Repos\\KafeinCodeCase\\Kcs.Entity\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

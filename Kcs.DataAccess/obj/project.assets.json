@@ -947,6 +947,9 @@
       "Kcs.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.2.3"
+        },
         "compile": {
           "bin/placeholder/Kcs.Core.dll": {}
         },
@@ -3653,11 +3656,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ozdecan\\Desktop\\KafeinCodeCase\\Kcs.DataAccess\\Kcs.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Ozdecan\\Source\\Repos\\KafeinCodeCase\\Kcs.DataAccess\\Kcs.DataAccess.csproj",
       "projectName": "Kcs.DataAccess",
-      "projectPath": "C:\\Users\\Ozdecan\\Desktop\\KafeinCodeCase\\Kcs.DataAccess\\Kcs.DataAccess.csproj",
+      "projectPath": "C:\\Users\\Ozdecan\\Source\\Repos\\KafeinCodeCase\\Kcs.DataAccess\\Kcs.DataAccess.csproj",
       "packagesPath": "C:\\Users\\Ozdecan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ozdecan\\Desktop\\KafeinCodeCase\\Kcs.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Ozdecan\\Source\\Repos\\KafeinCodeCase\\Kcs.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3676,11 +3679,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Ozdecan\\Desktop\\KafeinCodeCase\\Kcs.Core\\Kcs.Core.csproj": {
-              "projectPath": "C:\\Users\\Ozdecan\\Desktop\\KafeinCodeCase\\Kcs.Core\\Kcs.Core.csproj"
+            "C:\\Users\\Ozdecan\\Source\\Repos\\KafeinCodeCase\\Kcs.Core\\Kcs.Core.csproj": {
+              "projectPath": "C:\\Users\\Ozdecan\\Source\\Repos\\KafeinCodeCase\\Kcs.Core\\Kcs.Core.csproj"
             },
-            "C:\\Users\\Ozdecan\\Desktop\\KafeinCodeCase\\Kcs.Entity\\Kcs.Entity.csproj": {
-              "projectPath": "C:\\Users\\Ozdecan\\Desktop\\KafeinCodeCase\\Kcs.Entity\\Kcs.Entity.csproj"
+            "C:\\Users\\Ozdecan\\Source\\Repos\\KafeinCodeCase\\Kcs.Entity\\Kcs.Entity.csproj": {
+              "projectPath": "C:\\Users\\Ozdecan\\Source\\Repos\\KafeinCodeCase\\Kcs.Entity\\Kcs.Entity.csproj"
             }
           }
         }
